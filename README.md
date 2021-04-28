@@ -74,6 +74,7 @@ mvn clean package
 2. HTTP method    : POST 
 3. Authentication method : 	Authorization = PLANONKEY accesskey={PlanonAccessKey} 
 4. JSON data to be POSTED to webservice :
+```
 Example:
 {
    "description":"Description",
@@ -83,9 +84,10 @@ Example:
    "endDate":"",
    "comment":"comment"
 }
-
+```
  
 5. JSON response from webservice :
+```
 Example: 
 {
     "errorMessage": "",
@@ -101,6 +103,8 @@ Example:
     },
     "success": true
 }
+
+```
 
 
 				
