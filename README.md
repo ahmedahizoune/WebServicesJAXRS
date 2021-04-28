@@ -27,8 +27,6 @@ mvn clean package
 3. Should see a message similar to the following in the catalina.out log
 
 
-    ```
-
 4. Service can be accessed via [https://environment/sdk](https://environment/sdk)
 5. In System settings --> Password security --> Security --> Access keys
     1. Generate key pair
