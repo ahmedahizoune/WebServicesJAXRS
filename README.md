@@ -35,7 +35,8 @@ mvn clean package
 
 
 ## Mapping
-BO overview:
+1. BO overview:
+```
 ---------------------------------------------------
 | BO System name     |	BO description             |
 ---------------------------------------------------
@@ -43,10 +44,11 @@ BO overview:
 ---------------------------------------------------
 | UsrMaintenanceTeam |	Maintenance team           |
 ---------------------------------------------------
-	
+```
 	
 
 ## Mapping Role Player Person (Team Member)
+```
 ---------------------------------------------------------
 | Description |	Field type  | System name	| Mandatory	| 
 ---------------------------------------------------------
@@ -64,13 +66,14 @@ BO overview:
 ---------------------------------------------------------
 | Comment     |	Comment     | CommentString |	No	    |
 ---------------------------------------------------------
+```
 
 ## Webservice Definition 
 
-Webservice url : https://dartmouthsandbox-acc.planoncloud.com/sdk/jaxrs/planonwebservices/{teamCode}/addteammemeber
-HTTP method    : POST 
-Authentication method : 	Authorization = PLANONKEY accesskey={PlanonAccessKey} 
-JSON data to be POSTED to webservice :
+1. Webservice url : https://dartmouthsandbox-acc.planoncloud.com/sdk/jaxrs/planonwebservices/{teamCode}/addteammemeber
+2. HTTP method    : POST 
+3. Authentication method : 	Authorization = PLANONKEY accesskey={PlanonAccessKey} 
+4. JSON data to be POSTED to webservice :
 Example:
 {
    "description":"Description",
@@ -82,7 +85,7 @@ Example:
 }
 
  
-JSON response from webservice :
+5. JSON response from webservice :
 Example: 
 {
     "errorMessage": "",
