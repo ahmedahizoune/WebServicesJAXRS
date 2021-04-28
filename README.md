@@ -50,7 +50,7 @@ mvn clean package
 ## Mapping Role Player Person (Team Member)
 ```
 ---------------------------------------------------------
-| Description |	Field type  | System name	| Mandatory | 
+| Description |	Field type  | System name   | Mandatory | 
 ---------------------------------------------------------
 | Code        |	Text        | Code          |	No	    |
 ---------------------------------------------------------
@@ -60,7 +60,7 @@ mvn clean package
 ---------------------------------------------------------
 | Start date  |	DateNeutral | BeginDate	    |   Yes	    |
 ---------------------------------------------------------
-| End date  |	DateNeutral | EndDate	    |   No	    |
+| End date    |	DateNeutral | EndDate	    |   No	    |
 --------------------------------------------------------
 | Role	      | Role	    | Role          |	Yes	    |
 ---------------------------------------------------------
